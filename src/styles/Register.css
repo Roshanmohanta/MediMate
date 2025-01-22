@@ -1,0 +1,109 @@
+:root {
+    --primary-color: #0078d4;
+    --secondary-color: #f4faff;
+    --text-color: #333;
+    --heading-color: #0078d4;
+    --input-border-color: #ddd;
+    --button-bg: #0078d4;
+    --button-text: #fff;
+  }
+  
+  body {
+    font-family: "Arial", sans-serif;
+    background: var(--secondary-color);
+    margin: 0;
+    padding: 0;
+  }
+  
+  .register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: var(--secondary-color);
+  }
+  
+  .register-card {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    width: 400px;
+    position: relative;
+    text-align: center;
+  }
+  
+  .register-card::before {
+    content: "";
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 80px;
+    background-image: url('../assets/img/Health___Fitness.png');
+    background-size: cover;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    z-index: 1;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .register-heading {
+    margin-top: 50px;
+    color: var(--heading-color);
+    font-size: 1.8rem;
+  }
+  
+  .register-form {
+    margin-top: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .form-group label {
+    font-size: 0.9rem;
+    color: var(--text-color);
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid var(--input-border-color);
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .form-group textarea {
+    resize: none;
+  }
+  
+  .register-button {
+    background-color: rgb(14, 14, 118);
+    color: var(--button-text);
+    border: none;
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .register-button:hover {
+    background: #005bb5;
+  }
+  

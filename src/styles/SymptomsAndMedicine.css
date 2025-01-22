@@ -1,0 +1,79 @@
+.symptoms-and-medicine {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .symptoms-and-medicine h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .symptoms-and-medicine input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .symptoms-and-medicine button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .symptoms-and-medicine button:hover {
+    background-color: #45a049;
+  }
+  
+  .symptoms-and-medicine .error {
+    color: red;
+    font-weight: bold;
+  }
+  
+  /* Full-screen loading overlay */
+  /* Full-screen loading overlay */
+  /* Full-screen loading overlay */
+  .loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  /* Blurring the background */
+  .blurred {
+    filter: blur(8px);
+    pointer-events: none; /* Disable interactions while loading */
+  }
+  
+  /* Clear and centered doctor-patient image */
+  .doctor-animation {
+    animation: doctorMove 1s infinite alternate;
+    filter: none;
+  }
+  
+  /* Doctor image animation */
+  @keyframes doctorMove {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(10px);
+    }
+  }
+  
+  

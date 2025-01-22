@@ -1,0 +1,108 @@
+/* Center the login container in the middle of the page */
+.login-container {
+    display: flex;
+    justify-content: center; /* Horizontally center the container */
+    align-items: center;     /* Vertically center the container */
+    height: 100vh;           /* Ensure it takes the full height of the viewport */
+    background-color: #f4f4f4;
+    padding: 20px;
+    gap: 40px; /* Adds space between the form and the image */
+  }
+  
+  /* Medical bag container style */
+  .login-content {
+    width: 100%;
+    max-width: 450px;  /* Slightly increased size of the container */
+    padding: 30px;     /* Added padding for better spacing inside the container */
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  /* Medical bag top handle */
+  .login-content::before {
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 20px;
+    border-radius: 10px 10px 0 0;
+    background-color: #4CAF50;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading */
+  .login-content h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Form input styles */
+  .login-content div {
+    margin-bottom: 15px;
+  }
+  
+  .login-content label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .login-content input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Button styles */
+  .login-content button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .login-content button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Error message */
+  .error-message {
+    color: red;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  /* Link styling */
+  .login-content .signup-link {
+    text-align: center;
+    margin-top: 16px;
+  }
+  
+  .login-content .signup-link a {
+    color: #4CAF50;
+    text-decoration: none;
+  }
+  
+  .login-content .signup-link a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Image section */
+  .login-doc img {
+    width: 350px;
+    height: auto;
+    border-radius: 15px;
+  }
+  

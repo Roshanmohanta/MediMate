@@ -1,0 +1,67 @@
+/* Exercise.css */
+.exercise-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f8fb;
+    min-height: 100vh;
+  }
+  
+  .exercise-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .exercise-header h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .exercise-header p {
+    font-size: 1.1rem;
+    color: #666;
+    margin-top: 10px;
+  }
+  
+  .exercise-list {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  .exercise-item {
+    margin-bottom: 40px;
+  }
+  
+  .exercise-item h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .steps {
+    margin-top: 15px;
+  }
+  
+  .step {
+    margin-bottom: 20px;
+  }
+  
+  .step img {
+    width: 100%;
+    max-width: 500px;
+    margin-top: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  .step p {
+    font-size: 1.1rem;
+    color: #444;
+  }
+  

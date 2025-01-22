@@ -1,0 +1,38 @@
+.start__wrapper{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 3rem;
+    align-items: center;
+    margin-top: -100px;
+}
+.section__title{
+    color: rgba(14, 14, 118, 0.831);
+}
+.start__img, .start__content{
+    width: 50%;
+}
+.start__img{
+    width: 100%;
+}
+.start__content h2{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.start__content p{
+    color: var(--heading-color);
+    font-size: 1.1rem;
+    line-height: 28px;
+    margin-bottom: 50px;
+}
+
+.btn{
+    border-radius: 10px;
+    background-color: rgba(14, 14, 118, 0.831);
+    width: 80px;
+    height: 35px;
+    color: aliceblue;
+}
+.btn:hover{
+    background-color: rgb(16, 16, 180);
+}
